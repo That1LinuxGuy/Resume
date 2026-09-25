@@ -264,6 +264,7 @@ params:
         links:
       - title: Newelle Package Maintainer - Nixpkgs
         content: Maintain the Newelle package in Nixpkgs, resolving user-reported issues, restoring web browser and MCP functionality, and contributing upstream documentation and installation improvements.
+        image: /Resume/images/Newelle.svg
         badges:
           - "Nixpkgs"
           - "Open Source"
