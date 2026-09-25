@@ -55,7 +55,7 @@ Menus:
 
 params:
   title: "Michael's Profile"
-  description: My Online Resume showcasing basic GitOps & CI/CD
+  description: Bilingual English/Spanish technical support professional with Linux, Kubernetes, GitOps, and observability experience
   # staticPath: ""  # The path to serve the static files from
   favicon: "/Resume/images/fav.jpg"
 
@@ -110,7 +110,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Michael's Profle" # Brand name for the brand | default is the title variable
+    brandName: "Michael Allen" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -130,8 +130,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Michael"
-    subtitle: "I like Linux, servers, and automation"
-    content: "As a United States Air Force intelligence analyst transitioning into DevOps, I have unique insight into security best practices"
+    subtitle: "I am a TS/SCI cleared Bilingual Customer Support Engineer"
+    content: "As a Team Lead in the Air Force, I served a variety of federal customers, delivered techincal training to junior analysts, and translated complex problems into digestable content for senior stakeholders. Additionally, I have hands-on experience in Linux, Kubernetes, networking, GitOps, and observability. Actively developing my code and API skills.
     image: /Resume/images/hero.jpg
     bottomImage:
       enable: true
@@ -147,7 +147,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/That1LinuxGuy
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/michael-allen-58aa66158/
+          url: https://www.linkedin.com/in/michael-allen-vet/
       # customIcons:
         # - icon: /fav.png
         #   url: "https://example.com"
@@ -158,66 +158,47 @@ params:
     title: "About Me"
     # image: "/images/me.png"
     content: |-
-      I am a Security-Cleared Intelligence Analyst with experience managing high-stakes data in mission-critical environments, transitioning into DevOps. I have hands-on background with Linux systems, Docker containerization, and Kubernetes orchestration. I have a passion for rapidly mastering new technologies and building reliable infrastructure for others to use.
+       I am interested in a variety of technologies and love helping customers. I have hands on experience with multiple flavors of Linux, have worked through multiple netwroking issues, dabbled in security, and working with containers & orchestration. I have helped multiple government customers to reach their goals by building high trust relationships and built a modern website for a local business in Decatur Alabama, saving the owner $182/year in website hosting alone.
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Customer support, systems, and technical skills"
       items:
-       - "NixOS"
-       - "K3S"
-       - "Docker"
-       - "GoLang"
-       - "Github Actions"
-       - "fluxCD"
-       - "Helm"
+       - "Bilingual English/Spanish"
+       - "Active TS/SCI (CI Polygraph)"
+       - "CompTIA Security+"
+       - "RHEL, Debian, NixOS"
+       - "Kubernetes, Podman, Docker"
+       - "Helm, Kustomize, FluxCD, SOPS"
+       - "DNS, Firewalld, reverse proxies"
+       - "Git/GitHub Actions"
+       - "Prometheus/Grafana"
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Homelab"
-        companyUrl: "https://michael.713602.xyz"
+      - company: "Melodee Designs / Decatur, AL"
         jobs:
-          - name: "Lead Architect and Administrator"
-            date: "2024 - present"
-            content: "I am currently managing my own home servers from end-to-end, building robust systems, High Availability Infrastructure, and adding useful services on top for 'customers'"
-            info:
-              content: Working as a Lead Architect and Administrator
-            featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-github
-                  url: https://github.com/That1LinuxGuy/Resume
-#                  tooltip: Example tooltip content
-#                - icon: fab fa-x-twitter
-#                  url: https://example.com
-#                  # tooltip: Example tooltip content
-#              customIcons:
-#                - icon: /fav.png
-#                  url: "https://example.com"
-#                  tooltip: Example tooltip content
+          - name: "Technical Support & Web Consultant (Volunteer)"
+            date: "Mar 2026 - Present"
+            content: |
+              Support the production website and business IT environment, maintaining Hugo/Blowfish, custom CSS, Git-based Cloudflare Pages deployments, and production DNS routing. Configured Google Workspace and Cloudflare DNS, including email routing and SPF/DKIM/DMARC authentication, and recommended tools based on operational needs and cost. Integrating Decap CMS for owner-managed updates and designing a self-hosted Baserow costume inventory catalog.
 
-      - company: "United Stated Air Force"
-        # companyUrl: https://www.airforce.com/careers/intelligence/cryptologic-language-analyst 
+      - company: "U.S. Air Force / Department of Defense / National Security Agency"
         jobs:
-          - name: "Administrative Clerk"
-            date: "Oct 2025 to Present"
-            info:
-              content: 
+          - name: "Operations Support Lead"
+            date: "Oct 2025 - Present"
             content: |
-              I tracked accountability across 4 divisions for nearly 300 people. Additionally, I implemented automatic tracking of training pipelines, keys, and inbound/outbound members.
+              Serve as primary point of contact for four division leaders across a 300+ person organization, resolving documentation, readiness, and inter-service coordination issues. Developed automated inbound/outbound personnel logistics tracking, reducing weekly administrative maintenance overhead by 20%. Maintain 100% data integrity and records accountability across four divisions.
           - name: "Team Lead and Trainer"
-            date: "Jun 2023 to Oct 2025"
-            info:
-              content: 
+            date: "Jun 2023 - Oct 2025"
             content: |
-              I managed up to 15 personnel and regularly liaised with partner agencies to ensure unified lines of effort. Additionally, I dedicated over 200 hours training new military members, ensuring fully qualified phase 1 analysts were able to utilize Agency and IC Tools 
-          - name: "Cryptologic Language Analyst"
-            date: "Jan 2021 to Jun 2023"
-            info: 
-              content:
+              Managed direct support and coordination for three external customers across multiple time zones, gathering requirements and coordinating follow-ups through secure channels. Authored executive incident summaries and technical reproduction steps connecting tactical analysts with external agency engineers. Led a 15-person team and delivered 200+ hours of technical training, accelerating qualification for 14 analysts by an average of 45 days.
+          - name: "Intelligence Analyst"
+            date: "Jan 2021 - Jun 2023"
             content: |
-              I conducted comprehensive target research and analysis, identifying key communications and essential elements of information within 6 global networks. Additionally, I certified as a reporter, disseminating signals intelligence reports, ensuring accurate and timely information for stakeholders.
+              Conducted technical analysis across six global communications networks. Published specialized intelligence reports for 20+ external customer organizations, satisfying six strategic information needs, and briefed senior military leaders (O-4 through O-7) on technical intelligence, operational implications, risks, and recommended actions.
 
       - company: "Prevent Fire Safety"
         # companyUrl: "https://example.com"
@@ -235,33 +216,22 @@ params:
           content: |
             I provided efficient service in a high-volume retail environment, managed daily cash drawers and transactions, and collaborated with department leads to streamline checkout processes during peak hours.
 
-#      - company: "Google"
-#        companyUrl: "https://example.com"
-#        jobs:
-#        - name: "Product Designer"
-#          date: "Feb 2016 - Mar 2017"
-#          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
-
   # Education
   education:
     enable: true
     # title: "Custom Name"
     index: false
     items:
-      - title: "Bachelors of Arts Foreign Language- Spanish Emphasis"
+      - title: "B.A. in Linguistics (Spanish Emphasis)"
         school:
-          name: "Defense Language Institude - Foreign Language Center"
+          name: "Defense Language Institute"
           url: "https://www.dliflc.edu/"
-        date: "2021 - 2025"
-        GPA: "3.8 out of 4.0"
-        content: |-
-         Graduated top 10% of my class during the Basic Language Course, and graduated Valedictorian from a class of 12 during the Advanced Spanish Course.
+        date: "2025"
 
-      - title: "High School"
+      - title: "Coursework toward B.S. in Biology (Pre-Med track)"
         school:
-          name: "Covenant Christian Academy"
-          url: "https://www.covenantchristian.net/"
-        GPA: "4.2 out of 5.0"
+          name: "Mississippi College"
+        date: "2020"
 
   # Achievements
   achievements:
@@ -272,7 +242,7 @@ params:
       - title: CompTIA Security +
         url: https://www.comptia.org/en-us/certifications/security/
         image: /Resume/images/sec_plus.webp
-        content: the premier global certification that establishes the essential skills required for core security functions and a career in IT security
+        content: CompTIA Security+ certification (2026-2029).
 
 
   # projects
@@ -280,16 +250,22 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: NixOS based K3S cluster
-        content: My personal setup for automatically managing, expanding, and maintaining my home infrastructure
+      - title: Cloud-Native Lab
+        content: Three-node high-availability K3s cluster with 20+ workloads, GitOps deployment, observability, persistent storage, and tested disaster recovery
         image: /Resume/images/nixos.png
         featured:
           name: Configuration
           link: https://github.com/That1LinuxGuy/Homelab
         badges:
-          - "OS-as-Code"
-          - "Security First"
+          - "Kubernetes"
+          - "FluxCD"
+          - "Prometheus / Grafana"
         links:
+      - title: Newelle Package Maintainer - Nixpkgs
+        content: Maintain the Newelle package in Nixpkgs, resolving user-reported issues, restoring web browser and MCP functionality, and contributing upstream documentation and installation improvements.
+        badges:
+          - "Nixpkgs"
+          - "Open Source"
 
 #      - title: Image Converter
 #        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
@@ -304,20 +280,6 @@ params:
 #          - icon: fab fa-github
 #            url: https://github.com/gurusabarish/converter
 #
-#      - title: Hugo Profile V2
-#        content: A clean and simple Hugo template for personal portfolio and blog.
-#        image: /images/projects/profile2.jpg
-#        featured:
-#          name: Demo V2
-#          link: https://hugo-profile-2.netlify.app
-#        badges:
-#          - "Hugo"
-#          - "Bootstrap"
-#          - "Javascript"
-#        links:
-#          - icon: fab fa-github
-#            url: https://github.com/gurusabarish/HugoProfileV2
-
   #Contact
   contact:
     enable: true
@@ -341,7 +303,7 @@ params:
       disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/That1LinuxGuy
-      linkedin: https://www.linkedin.com/in/michael-allen-58aa66158/
+      linkedin: https://www.linkedin.com/in/michael-allen-vet/
       # twitter: https://twitter.com
       # instagram: https://instagram.com
       # facebook: https://facebook.com
