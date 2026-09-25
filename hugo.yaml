@@ -131,7 +131,8 @@ params:
     intro: "Hi, my name is"
     title: "Michael"
     subtitle: "I am a TS/SCI cleared Bilingual Customer Support Engineer"
-    content: "As a Team Lead in the Air Force, I served a variety of federal customers, delivered techincal training to junior analysts, and translated complex problems into digestable content for senior stakeholders. Additionally, I have hands-on experience in Linux, Kubernetes, networking, GitOps, and observability. Actively developing my code and API skills.
+    content: >-
+      As a Team Lead in the Air Force, I served a variety of federal customers, delivered technical training to junior analysts, and translated complex problems into digestible content for senior stakeholders. Additionally, I have hands-on experience in Linux, Kubernetes, networking, GitOps, and observability. I am actively developing my coding and API skills.
     image: /Resume/images/hero.jpg
     bottomImage:
       enable: true
